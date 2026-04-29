@@ -1,3 +1,5 @@
+package Encapsulation;
+
 public class Contsr_Ticket {
     public static void main(String[] args) {
         FlightTicket ticket = new FlightTicket("Jane" , "SW111" , 1210);

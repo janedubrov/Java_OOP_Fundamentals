@@ -1,3 +1,5 @@
+package Encapsulation;
+
 public class SmartSpeaker {
     private String brand;
     private int volume = 10;

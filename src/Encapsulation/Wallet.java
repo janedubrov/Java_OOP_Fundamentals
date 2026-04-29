@@ -1,3 +1,5 @@
+package Encapsulation;
+
 public class Wallet {
     private String owner;
     private double balance;

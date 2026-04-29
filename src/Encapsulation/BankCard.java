@@ -1,3 +1,5 @@
+package Encapsulation;
+
 public class BankCard {
     private String userName;
     private double balance = 0;

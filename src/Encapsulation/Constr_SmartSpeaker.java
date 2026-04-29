@@ -1,3 +1,5 @@
+package Encapsulation;
+
 public class Constr_SmartSpeaker {
     public static void main(String[] args) {
         SmartSpeaker smartSpeaker = new SmartSpeaker("Marshall");

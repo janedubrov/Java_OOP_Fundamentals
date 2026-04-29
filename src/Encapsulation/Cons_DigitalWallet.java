@@ -1,3 +1,5 @@
+package Encapsulation;
+
 public class Cons_DigitalWallet {
     public static void main(String[] args) {
         Wallet wallet = new Wallet("Jane" , 100.0, "USD");

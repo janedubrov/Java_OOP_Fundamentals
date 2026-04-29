@@ -1,3 +1,5 @@
+package Encapsulation;
+
 public class FlightTicket {
     private String passengerName;
     private String flightNumber;

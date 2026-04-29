@@ -1,3 +1,5 @@
+package Encapsulation;
+
 public class Constr_Scooter {
     public static void main(String[] args) {
         Scooter scooter = new Scooter("Ninebot", 10.0);

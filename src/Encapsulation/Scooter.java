@@ -1,3 +1,5 @@
+package Encapsulation;
+
 public class Scooter {
     private String model;
     private double batteryLevel;
@@ -35,7 +37,7 @@ public class Scooter {
     void takeRental() {
         if(!isRented && batteryLevel >= 10){
             this.isRented = true;
-            System.out.println("Scooter " + model + " is yours!");
+            System.out.println("Encapsulation.Scooter " + model + " is yours!");
 
         }
 
