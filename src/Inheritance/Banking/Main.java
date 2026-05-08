@@ -1,4 +1,4 @@
-package Practice.Banking;
+package Inheritance.Banking;
 
 public class Main {
     public static void main(String[] args) {

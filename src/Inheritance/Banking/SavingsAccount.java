@@ -1,4 +1,4 @@
-package Practice.Banking;
+package Inheritance.Banking;
 
 public class SavingsAccount extends BankAccount{
     private double interestRate;

@@ -1,4 +1,4 @@
-package Practice.Banking;
+package Inheritance.Banking;
 
 public class CheckingAccount extends BankAccount {
     private static final double FEE = 1.5;
