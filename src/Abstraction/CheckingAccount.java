@@ -10,7 +10,7 @@ public class CheckingAccount extends BankAccount{
     @Override
     void withdraw(double amount) {
         this.balance = balance - amount - 1.5;
-        System.out.println("Withdrew " + amount + " + 1.5 fee. New balance is " + this.balance);
+        System.out.println("Withdrew " + amount + " + 1.5 fee. New balance is: " + this.balance);
     }
 
 }
