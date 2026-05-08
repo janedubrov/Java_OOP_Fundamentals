@@ -9,11 +9,11 @@ public class BankAccount {
         this.balance = balance;
     }
 
-    String getAccountNumber() {
+    public String getAccountNumber() {
         return accountNumber;
     }
 
-    double getBalance() {
+    public double getBalance() {
         return balance;
     }
 
