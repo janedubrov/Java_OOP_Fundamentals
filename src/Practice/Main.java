@@ -18,6 +18,8 @@ public class Main {
         }
 
         ((Tachograph) device[1]).checkOvertime();
+        System.out.println();
+        ((TelematicsBox) device[0]).sendData();
 
     }
 }

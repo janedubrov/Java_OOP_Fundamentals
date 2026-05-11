@@ -31,7 +31,7 @@ public class TelematicsBox extends GPSDevice implements Transmittable {
 
     @Override
     public void sendData() {
-        System.out.println("Sending data via 5G");
+        System.out.println("Telematics Box is sending data via 5G");
     }
 
 }
