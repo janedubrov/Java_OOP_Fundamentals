@@ -1,17 +1,21 @@
 package Practice;
 
+// Subklasse - Die TelematicsBox überwacht die Geschwindigkeit
+
 public class TelematicsBox extends GPSDevice implements Transmittable {
     private int currentSpeed;
 
     public TelematicsBox(String serialNumber, int currentSpeed) {
-        super(serialNumber);
+        super(serialNumber); // Aufruf des Eltern-Konstruktors
         this.currentSpeed = currentSpeed;
     }
 
+// Getter
     public int getCurrentSpeed() {
         return currentSpeed;
     }
 
+    // Setter mit Validierung
     public void setCurrentSpeed(int currentSpeed) {
         if(currentSpeed > 0) {
             this.currentSpeed = currentSpeed;

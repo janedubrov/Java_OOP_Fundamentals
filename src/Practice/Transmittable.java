@@ -1,5 +1,7 @@
 package Practice;
 
+// Interface für Geräte, die Daten an die Zentrale senden können
+
 public interface Transmittable {
-    public void sendData();
+    public void sendData(); // Methode zum Senden von Telematikdaten
 }
