@@ -4,11 +4,11 @@ This repository is a structured collection of Java exercises, focused on core Ob
 
 ## 📂 Repository Structure
 
-- **Encapsulation**: Demonstrates data protection using `private` fields and validation logic.
+- **encapsulation**: Demonstrates data protection using `private` fields and validation logic.
   - Examples: `BankCard`, `Scooter`, `Wallet`, `FlightTicket`.
-- **Inheritance**: Showcases class hierarchies and code reuse.
+- **inheritance**: Showcases class hierarchies and code reuse.
   - Examples: `Employee` hierarchy (`Manager`, `Developer`, `Intern`).
-- **Abstraction**: Working with abstract concepts and common interfaces.
+- **abstraction**: Working with abstract concepts and common interfaces.
   - Examples: `Shape` (Circle, Triangle), `Workout` (Yoga, Running).
 
 ## 🚀 Key Learning Objectives

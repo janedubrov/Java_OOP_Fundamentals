@@ -1,14 +1,14 @@
 # Java OOP Fundamentals
 
-Practice project covering core Object-Oriented Programming concepts in Java,
+practice project covering core Object-Oriented Programming concepts in Java,
 created as part of my FIAE (Fachinformatikerin für Anwendungsentwicklung) training.
 
 ## 📚 Topics Covered
 
 - Classes and Objects
 - Constructors
-- Encapsulation (Getter & Setter)
-- Inheritance
+- encapsulation (Getter & Setter)
+- inheritance
 - The `this` keyword
 - Method Overriding
 
