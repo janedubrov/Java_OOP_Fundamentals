@@ -1,4 +1,4 @@
-package composition;
+package composition.library;
 
 public class Library {
     private String name;

@@ -1,4 +1,4 @@
-package composition;
+package composition.library;
 
 public class Main {
     public static void main(String[] args) {
