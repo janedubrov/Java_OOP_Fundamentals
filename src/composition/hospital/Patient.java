@@ -4,11 +4,13 @@ public class Patient {
     private String name;
     private int id;
     private String diagnosis;
+    private int age;
 
-    public Patient(String name, int id, String diagnosis) {
+    public Patient(String name, int id, String diagnosis, int age) {
         this.name = name;
         this.id = id;
         this.diagnosis = diagnosis;
+        this.age = age;
     }
 
     @Override
@@ -16,6 +18,7 @@ public class Patient {
         String patientString = "";
         patientString += "\nPatient ID: " + id;
         patientString += "\nName: " + name;
+        patientString += "\nage: " + age;
         patientString += "\nDiagnosis: " + diagnosis;
 
         return patientString;
@@ -40,5 +43,11 @@ public class Patient {
     public void setDiagnosis(String diagnosis) {
         this.diagnosis = diagnosis;
     }
+    public int getAge(){
+        return age;
+    }
 
+    public void setAge(int age) {
+        this.age = age;
+    }
 }
