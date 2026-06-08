@@ -15,6 +15,7 @@ public class Passenger implements Comparable<Passenger>{
         return "Passenger " + name + ", boarding class(1-3): " + boardingClass + ", check in order: " + checkInOrder;
     }
 
+    @Override
     public int compareTo(Passenger newPassanger) {
         if(this.boardingClass == newPassanger.boardingClass) {
            return this.checkInOrder - newPassanger.checkInOrder;
