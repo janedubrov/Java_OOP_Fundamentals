@@ -1,6 +1,8 @@
+package sets;
+
 import java.util.LinkedHashSet;
 
-public class LinkedHashset_Main {
+public class LinkedHashSet_Main {
     public static void main(String[] args) {
 
         LinkedHashSet<String> pages = new LinkedHashSet<>();

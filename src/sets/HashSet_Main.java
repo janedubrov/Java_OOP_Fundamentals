@@ -1,9 +1,11 @@
+package sets;
+
 import java.util.HashSet;
 
 public class HashSet_Main {
     public static void main(String[] args) {
 
-  HashSet<String> fruits = new HashSet<>();
+        HashSet<String> fruits = new HashSet<>();
 
         fruits.add("apple");
         fruits.add("banana");
