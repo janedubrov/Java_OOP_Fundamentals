@@ -37,7 +37,7 @@ public class CalculateBMI {
         scanner.close();
     }
 
-    public static double calculateWeight(double weight, double height) {
+    public static double calculateWeight(double weight, double height) throws IllegalArgumentException {
 
         if(weight <= 0) {
             throw new IllegalArgumentException("Weight can not be equal or less than 0");
