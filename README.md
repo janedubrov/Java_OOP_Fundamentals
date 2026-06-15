@@ -25,7 +25,8 @@ training at WBS Training Schweinfurt.
 **Advanced Java**
 - Enums (fields, constructors, getters)
 - Lambda Expressions
-- Exception Handling (try-catch)
+- Exception Handling (try-catch, finally)
+- Custom Exceptions (throw, throws)
 
 ## 🛠️ Tech Stack
 - Java
