@@ -1,24 +1,37 @@
 # Java OOP Fundamentals
 
-practice project covering core Object-Oriented Programming concepts in Java,
-created as part of my FIAE (Fachinformatikerin für Anwendungsentwicklung) training.
+Practice project covering core Java and Object-Oriented Programming concepts, 
+created as part of my FIAE (Fachinformatikerin für Anwendungsentwicklung) 
+training at WBS Training Schweinfurt.
+
+🔄 Actively updated — new topics added regularly.
 
 ## 📚 Topics Covered
 
-- Classes and Objects
-- Constructors
-- encapsulation (Getter & Setter)
-- inheritance
-- The `this` keyword
-- Method Overriding
+**OOP Fundamentals**
+- Classes, Objects, Constructors
+- Encapsulation (Getter & Setter)
+- Inheritance & Method Overriding
+- Abstraction & Interfaces
+- Composition
+- Keywords: `this`, `super`
+
+**Collections Framework**
+- Lists: ArrayList, Stack
+- Queues: PriorityQueue
+- Sets: HashSet, LinkedHashSet, TreeSet
+- Maps: HashMap, getOrDefault()
+
+**Advanced Java**
+- Enums (fields, constructors, getters)
+- Lambda Expressions
+- Exception Handling (try-catch)
 
 ## 🛠️ Tech Stack
-
 - Java
-- IntelliJ IDEA / VS Code
+- IntelliJ IDEA
 - Git & GitHub
 
 ## 🎯 Goal
-
-This repository documents my learning progress in Java OOP.
-Each folder/class represents a specific concept I practiced.
+This repository documents my learning progress in Java. 
+Each folder represents a specific concept with practical exercises.
