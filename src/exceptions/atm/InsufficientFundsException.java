@@ -1,4 +1,4 @@
-package exceptions;
+package exceptions.atm;
 
 public class InsufficientFundsException extends Exception {
     public InsufficientFundsException(String message) {
