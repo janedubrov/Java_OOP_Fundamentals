@@ -1,4 +1,4 @@
-package exceptions;
+package exceptions.discount;
 
 import java.util.Scanner;
 
