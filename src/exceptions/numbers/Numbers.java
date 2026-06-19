@@ -1,4 +1,4 @@
-package exceptions;
+package exceptions.numbers;
 
 import java.util.Scanner;
 
@@ -6,7 +6,6 @@ public class Numbers {
     public static void main(String[] args) {
 
         try {
-
             int zahl1 = 0;
             int zahl2 = 0;
             double result;
