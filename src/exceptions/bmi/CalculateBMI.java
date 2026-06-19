@@ -1,4 +1,4 @@
-package exceptions;
+package exceptions.bmi;
 
 import java.util.Scanner;
 
