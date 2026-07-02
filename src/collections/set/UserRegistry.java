@@ -57,7 +57,7 @@ public class UserRegistry {
         User user4 = new User("Henry", "spam777@gmail.de");
         registry.addToRegistry(user4);
 
-        User user5 = new User("AliceInWondeland", "alice@gmail.com");
+        User user5 = new User("AliceInWonderland", "alice@gmail.com");
         registry.addToRegistry(user5);
 
         registry.deleteUser("jenny123@gmail.com");
