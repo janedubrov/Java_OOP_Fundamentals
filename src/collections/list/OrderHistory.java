@@ -62,6 +62,7 @@ public class OrderHistory {
         Order order2 = new Order(0002, "Ipad", 1500.00, PENDING);
         Order order3 = new Order(0003, "IMac", 2500.00, SHIPPED);
         Order order4 = new Order(0004, "Iphone 16", 800.00, CANCELLED);
+        Order order5 = new Order(0005, "Iphone 16", 800.00, DELIVERED);
 
         OrderHistory orderHistory = new OrderHistory();
 
@@ -69,6 +70,7 @@ public class OrderHistory {
         orderHistory.addToList(order2);
         orderHistory.addToList(order3);
         orderHistory.addToList(order4);
+        orderHistory.addToList(order5);
 
         orderHistory.printAllOrders();
 
