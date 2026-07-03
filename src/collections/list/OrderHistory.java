@@ -42,6 +42,14 @@ public class OrderHistory {
         });
     }
 
+    public void showPendingOrders() {
+        for(Order o : orders) {
+            if(o.getOrderStatus().equals(PENDING)){
+                System.out.println(String.format("Order #%04d" , o.getOrderId()));
+            }
+        }
+    }
+
     public double calculateTotalPrice(){
      double totalprice = 0;
 
@@ -51,9 +59,6 @@ public class OrderHistory {
         System.out.println("Total price: " + totalprice);
      return totalprice;
     }
-
-
-
 
 
     public static void main(String[] args) {
@@ -100,6 +105,11 @@ public class OrderHistory {
 
         System.out.println();
         orderHistory.calculateTotalPrice();
+
+        System.out.println();
+        System.out.println("PENDING orders: ");
+
+        orderHistory.showPendingOrders();
 
     }
 }
